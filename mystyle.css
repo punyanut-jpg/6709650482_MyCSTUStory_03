@@ -36,7 +36,6 @@ aside {
     position:sticky;
     z-index: 1;
     top:85px;
-    overflow: auto;
 }
 
 aside ul {
@@ -231,7 +230,7 @@ footer{
     color: antiquewhite;
 }
 
-@media screen and (max-width : 768px) {
+@media (max-width : 768px) {
     #punyanut{
         width: 100%;
         height: auto;
@@ -247,5 +246,22 @@ footer{
 
     div{
         width: 80%;
+    }
+}
+
+@media (max-width : 360px) {
+    body{
+        background-color: aqua;
+    }
+    aside{
+        background-color: rgb(243, 202, 106); 
+        float: left;
+        width: 15%;
+        display: flex;
+        min-height: 100vh;
+        height: 100%;
+        position:sticky;
+        z-index: 1;
+        top:85px;
     }
 }
