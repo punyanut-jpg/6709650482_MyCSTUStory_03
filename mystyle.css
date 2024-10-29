@@ -205,7 +205,7 @@ div{
     text-indent: 0px;
     float: left;
     width: 40%;
-    margin: 10px 10px;
+    margin: 6px ;
     padding: 2px 2px 2px;
     border-radius: 20px;
     border-style: dashed;
@@ -228,4 +228,24 @@ footer{
     width: 100%;
     float: left;
     position: relative;
+    color: antiquewhite;
+}
+
+@media screen and (max-width : 768px) {
+    #punyanut{
+        width: 100%;
+        height: auto;
+    }
+
+    section p {
+        margin: 50px;
+    }
+
+    section ul li{
+        text-indent: 100px;
+    }
+
+    div{
+        width: 80%;
+    }
 }
